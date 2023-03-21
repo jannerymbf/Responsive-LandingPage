@@ -46,3 +46,40 @@ body {
 .header__navbar a:visited {
   color: black;
 }
+
+/*Styles for get started section*/
+
+.get-started {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.get-started form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.get-started .get-started__title {
+  font-size: 2rem;
+}
+
+.get-started .get-started__email {
+  margin: 15px auto;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+
+.get-started .get-started__btn {
+  padding: 5px 10px;
+  width: 50%;
+  max-width: 150px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f1c40f;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
