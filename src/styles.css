@@ -164,7 +164,8 @@ main {
 .pricing .pricing__article {
   width: 70%;
   height: 270px;
-  min-width: 270px;
+  min-width: 230px;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -230,4 +231,45 @@ main {
 .footer .footer__copyright {
   font-size: 1.2rem;
   color: #444;
+}
+
+@media screen and (min-width: 550px) {
+  .features__article {
+    flex-direction: row;
+  }
+
+  .article--text {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 658px) {
+  html {
+    font-size: 70%;
+  }
+
+  .header {
+    padding-right: 35px;
+    padding-left: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__logo img {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .header__navbar ul {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .pricing {
+    padding: 0 10px;
+    flex-direction: row;
+  }
 }
