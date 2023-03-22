@@ -201,3 +201,28 @@ main {
   font-size: 1.6rem;
   font-weight: 400;
 }
+
+/*Styles for footer*/
+
+.footer {
+  width: 100%;
+  margin-top: 35px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #ddd;
+}
+
+
+.footer .footer__terms {
+  display: flex;
+  gap: 15px;
+  font-size: 1.6rem;
+}
+
+.footer .footer__copyright {
+  font-size: 1.2rem;
+  color: #444;
+}
