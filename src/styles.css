@@ -17,8 +17,12 @@ body {
 .header {
   width: 100%;
   padding: 25px 0px;
+  position: sticky; /*para que el navbar se quede donde esta*/
+  top: 0; /*para que el navbar se quede donde esta*/
   display: flex;
   flex-direction: column;
+  /* z-index: 1; */
+  background-color: #ddd;
   text-align: center;
 }
 
@@ -50,6 +54,7 @@ body {
 
 main {
   width: 100%;
+  margin-top: 30px;
 }
 /*Styles for get started section*/
 
